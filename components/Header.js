@@ -37,7 +37,7 @@ const Header = () => {
         </a>
       </NavMenu>
 
-      <UserImg src="keita.jpg" />
+      <UserImg src="keita.JPG" />
     </Nav>
   );
 };
