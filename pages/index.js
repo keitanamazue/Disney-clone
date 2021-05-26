@@ -1,13 +1,17 @@
 import Header from "../components/Header";
 import Main from "../components/Main";
-import Link from "next/link";
-import Detail from "../components/Detail";
+import "../styles/Home.module.css";
+import styled from "styled-components";
 
 export default function Home() {
   return (
-    <div>
+    <Container>
       <Header />
       <Main />
-    </div>
+    </Container>
   );
 }
+
+const Container = styled.div`
+  background-color: #040714;
+`;

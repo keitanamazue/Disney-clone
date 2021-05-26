@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import styled from "styled-components";
 
@@ -5,6 +6,10 @@ const Header = () => {
   return (
     <Nav>
       <Logo src="logo.svg" />
+      <Link href="/">top</Link>
+      <Link href="/detail">detail</Link>
+      <Link href="/login">login</Link>
+
       <NavMenu>
         <a>
           <img src="home-icon.svg" alt="" />
