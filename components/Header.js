@@ -6,9 +6,6 @@ const Header = () => {
   return (
     <Nav>
       <Logo src="logo.svg" />
-      {/* <Link href="/">top</Link>
-      <Link href="/detail">detail</Link>
-      <Link href="/login">login</Link> */}
 
       <NavMenu>
         <a>
