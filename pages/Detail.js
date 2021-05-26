@@ -20,7 +20,7 @@ export default function detail() {
           />
         </ImgTitle>
 
-        <Controls>
+        <ontrols>
           <PlayButton>
             <img src="play-icon-black.png" alt="" />
             <span>Play</span>
@@ -35,7 +35,7 @@ export default function detail() {
           <GroupWatchButton>
             <img src="group-icon.png" alt="" />
           </GroupWatchButton>
-        </Controls>
+        </ontrols>
 
         <SubTitle>2018 ・　Family, Fantasy, Kids, Animation</SubTitle>
         <Description>
@@ -55,7 +55,7 @@ const Container = styled.div`
 `;
 
 const Background = styled.div`
-  　position: fixed;
+  position: fixed;
   top: 0;
   left: 0;
   bottom: 0;
