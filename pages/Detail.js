@@ -20,7 +20,7 @@ export default function detail() {
           />
         </ImgTitle>
 
-        <ontrols>
+        <Controls>
           <PlayButton>
             <img src="play-icon-black.png" alt="" />
             <span>Play</span>
@@ -35,7 +35,7 @@ export default function detail() {
           <GroupWatchButton>
             <img src="group-icon.png" alt="" />
           </GroupWatchButton>
-        </ontrols>
+        </Controls>
 
         <SubTitle>2018 ・　Family, Fantasy, Kids, Animation</SubTitle>
         <Description>
