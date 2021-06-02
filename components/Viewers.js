@@ -1,27 +1,38 @@
 import React from "react";
 import styled from "styled-components";
+import Link from "next/link";
 
 const Viewers = () => {
   return (
     <Container>
       <Wrap>
-        <img src="viewers-disney.png" alt="" />
+        <Link href="/detail">
+          <img src="viewers-disney.png" alt="" />
+        </Link>
       </Wrap>
 
       <Wrap>
-        <img src="viewers-pixar.png" alt="" />
+        <Link href="/detail">
+          <img src="viewers-pixar.png" alt="" />
+        </Link>
       </Wrap>
 
       <Wrap>
-        <img src="viewers-marvel.png" alt="" />
+        <Link href="/detail">
+          <img src="viewers-marvel.png" alt="" />
+        </Link>
       </Wrap>
 
       <Wrap>
-        <img src="viewers-starwars.png" alt="" />
+        <Link href="/detail">
+          <img src="viewers-starwars.png" alt="" />
+        </Link>
       </Wrap>
 
       <Wrap>
-        <img src="viewers-national.png" alt="" />
+        <Link href="/detail">
+          <img src="viewers-national.png" alt="" />
+        </Link>
       </Wrap>
     </Container>
   );

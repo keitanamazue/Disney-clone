@@ -5,13 +5,17 @@ import styled from "styled-components";
 const Header = () => {
   return (
     <Nav>
-      <Logo src="logo.svg" />
+      <Link href="/">
+        <Logo src="logo.svg" />
+      </Link>
 
       <NavMenu>
-        <a>
-          <img src="home-icon.svg" alt="" />
-          <span>HOME</span>
-        </a>
+        <Link href="/">
+          <a>
+            <img src="home-icon.svg" alt="" />
+            <span>HOME</span>
+          </a>
+        </Link>
 
         <a>
           <img src="search-icon.svg" alt="" />
@@ -39,7 +43,9 @@ const Header = () => {
         </a>
       </NavMenu>
 
-      <UserImg src="keita.JPG" />
+      <Link href="/login">
+        <UserImg src="keita.JPG" />
+      </Link>
     </Nav>
   );
 };
@@ -57,6 +63,7 @@ const Nav = styled.nav`
 
 const Logo = styled.img`
   width: 80px;
+  cursor: pointer;
 `;
 
 const NavMenu = styled.div`

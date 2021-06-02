@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Link from "next/link";
 
 const ImgSlider = () => {
   let setting = {
@@ -16,16 +17,24 @@ const ImgSlider = () => {
   return (
     <Carousel {...setting}>
       <Wrap>
-        <img src="slider-badging.jpg" alt="" />
+        <Link href="/detail">
+          <img src="slider-badging.jpg" alt="" />
+        </Link>
       </Wrap>
       <Wrap>
-        <img src="slider-badag.jpg" alt="" />
+        <Link href="/detail">
+          <img src="slider-badag.jpg" alt="" />
+        </Link>
       </Wrap>
       <Wrap>
-        <img src="slider-scale.jpg" alt="" />
+        <Link href="/detail">
+          <img src="slider-scale.jpg" alt="" />
+        </Link>
       </Wrap>
       <Wrap>
-        <img src="slider-scales.jpg" alt="" />
+        <Link href="/detail">
+          <img src="slider-scales.jpg" alt="" />
+        </Link>
       </Wrap>
     </Carousel>
   );
