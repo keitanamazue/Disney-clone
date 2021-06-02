@@ -43,7 +43,7 @@ const Header = () => {
         </a>
       </NavMenu>
 
-      <Link href="/login">
+      <Link href="/detail">
         <UserImg src="keita.JPG" />
       </Link>
     </Nav>
