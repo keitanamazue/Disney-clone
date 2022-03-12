@@ -1,7 +1,7 @@
 import Header from "../components/Header";
 import styled from "styled-components";
 
-export default function detail() {
+const Detail = () => {
   return (
     <>
       <Header />
@@ -39,12 +39,12 @@ export default function detail() {
 
         <SubTitle>2018 ・　Family, Fantasy, Kids, Animation</SubTitle>
         <Description>
-          ディズニー／ピクサーが贈る笑いあり冒険ありの、心に響く家族の物語。ミュージシャンを夢見る少年ミゲルは、先祖たちが暮らす“死者の国”へ冒険に出る。彼はそこで、嘘つきだが憎めないヘクターと友達になる。ヘクターの助けを借り、
+          ディズニー／ピクサーが贈る笑いあり冒険ありの心に響く家族の物語。ミュージシャンを夢見る少年ミゲルは、先祖たちが暮らす“死者の国”へ冒険に出る。彼はそこで、嘘つきだが憎めないヘクターと友達になる。ヘクターの助けを借り、
         </Description>
       </Container>
     </>
   );
-}
+};
 
 // ファイルの最初のスペルを小文字にすると動く。
 

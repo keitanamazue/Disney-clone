@@ -6,31 +6,31 @@ const Viewers = () => {
   return (
     <Container>
       <Wrap>
-        <Link href="/detail">
+        <Link href="/Detail">
           <img src="viewers-disney.png" alt="" />
         </Link>
       </Wrap>
 
       <Wrap>
-        <Link href="/detail">
+        <Link href="/Detail">
           <img src="viewers-pixar.png" alt="" />
         </Link>
       </Wrap>
 
       <Wrap>
-        <Link href="/detail">
+        <Link href="/Detail">
           <img src="viewers-marvel.png" alt="" />
         </Link>
       </Wrap>
 
       <Wrap>
-        <Link href="/detail">
+        <Link href="/Detail">
           <img src="viewers-starwars.png" alt="" />
         </Link>
       </Wrap>
 
       <Wrap>
-        <Link href="/detail">
+        <Link href="/Detail">
           <img src="viewers-national.png" alt="" />
         </Link>
       </Wrap>
