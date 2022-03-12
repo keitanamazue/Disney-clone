@@ -1,7 +1,7 @@
 import Header from "../components/Header";
 import styled from "styled-components";
 
-const Detail = () => {
+export default function Detail() {
   return (
     <>
       <Header />
@@ -44,7 +44,7 @@ const Detail = () => {
       </Container>
     </>
   );
-};
+}
 
 // ファイルの最初のスペルを小文字にすると動く。
 
